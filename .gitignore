@@ -1,0 +1,18 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Firmware build output
+firmware/brushpad/.pio/
+
+# Editor / OS / local tool settings
+.DS_Store
+
+# Large or regenerable audio renders (re-create with the scripts)
+evals/our/
+evals/ab/
+# Recordings of a commercial product, kept local only
+evals/roland/
+evals/roland_candidates/
